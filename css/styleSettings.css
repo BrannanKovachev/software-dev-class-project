@@ -1,0 +1,32 @@
+  /* Height Fill Amount */
+  body, html {
+    height: 100%;
+  }
+
+  /* Central Box Style for Account Settings Page */
+  .centering-input{
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #9E9E9E;
+    padding-top: 2%;
+    padding-right: 8%;
+    padding-bottom: 5%;
+    padding-left: 8%;
+    border: 4px solid;
+    border-radius: 8px;
+    border-color: #636363;
+
+  }
+
+  /* Background Image for Settings */
+  .bgFull {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/backgroundImage.png");
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#101010;
+    background-attachment: fixed;
+
+  }

@@ -1,0 +1,30 @@
+  /* Height Fill Amount */
+  body, html {
+    height: 100%;
+  }
+
+  /* Central Box Style for Drivers Pages */
+  .centering-input{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #9E9E9E;
+    padding-top: 2%;
+    padding-right: 8%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    border: 4px solid;
+    border-radius: 8px;
+    border-color: #636363;
+  }
+
+  /* Background Image for Drivers*/
+  .bgFull {
+    background-image: url("../images/DriverPagesBackground.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#101010;
+
+  }

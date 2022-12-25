@@ -1,0 +1,128 @@
+/* Image Placement */
+body{
+    padding-top: 0%;
+    background: url(../images/backgroundImage.png);
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+
+}
+
+/* Register Box Sizing and Placement */
+.registerBox{
+    width: 35%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 15px 20px;
+
+}
+
+#register{
+    display: block;
+}
+
+/* Login Box Sizing and Placement */
+.loginbox
+{
+
+    width: 35%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+    padding: 0 0 20px;
+    font-size: 22px;
+}
+
+/* Register Box Input Fields */
+.col-md-11{
+    width: 100%;
+}
+
+.col-md-11 p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+
+.col-md-11 input
+{
+    width: 100%;
+    margin-bottom: 40px;
+    height: 40px;
+    font-size: 15.5px;
+}
+
+.col-md-11 input[type="submit"]
+{
+    border: 0;
+    outline: 0;
+    background: #008000;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+/* Login box input fields */
+.col-md-12{
+    width: 100%;
+}
+
+.col-md-12 p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.col-md-12 input
+{
+    width: 100%;
+    margin-bottom: 40px;
+    height: 40px;
+    font-size: 15.5px;
+}
+.col-md-12 input[type = "text"], .formbox input[type="password"]{
+    border: 0;
+    border-bottom: 1px solid #fff;
+    background: transpart;
+    outLine: none;
+    height: 40px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.col-md-12 input[type="submit"]
+{
+    border: 0;
+    outline: 0;
+    background: #008000;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
